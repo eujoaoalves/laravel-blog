@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+
+.form-control {
+    width: 300px;
+}
+td {
+    background-color: red;
+}
+.user-post-image {
+    width: 100px;
+    height: 100px;
+}
+#options {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 1500px) {
+    #delete-post {
+        margin-top: 10px;
+    }
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
